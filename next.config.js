@@ -7,7 +7,7 @@ const nextConfig = {
     styledComponents: true,
   },
   env: {
-    PUBLIC_URL: "/",
+    ...(process.env.NODE_ENV === "production" ? { PUBLIC_URL: "/" } : {}),
   },
 };
 
