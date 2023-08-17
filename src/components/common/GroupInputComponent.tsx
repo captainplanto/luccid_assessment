@@ -2,15 +2,8 @@
 import { useState } from "react";
 import { InputComponent } from "./InputComponent";
 import { GroupButtonComponent } from "./GroupButtonComponent";
-interface IForm {
-  companyName: string;
-  representative: string;
-  contactNumber: number | string;
-  address: string;
-  vatId: number | string;
-  email: string;
-  password: any;
-}
+import { IForm } from "@/types/type";
+
 const GroupInputComponent = () => {
   const [form, setForm] = useState<IForm>({
     companyName: "",

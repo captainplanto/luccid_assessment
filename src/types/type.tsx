@@ -21,3 +21,13 @@ export interface IInputProps {
   name: string;
   onchange: (e: any) => void;
 }
+
+export interface IForm {
+  companyName: string;
+  representative: string;
+  contactNumber: number | string;
+  address: string;
+  vatId: number | string;
+  email: string;
+  password: string;
+}
