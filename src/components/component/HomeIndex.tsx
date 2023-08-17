@@ -8,7 +8,7 @@ export const HomeIndex = () => {
         <SubHeaderInfo
           title="Sign Up"
           sub_title="Please provide your company's details"
-          logo="/add_logo.png"
+          logo="/icon.png"
           info="Add logo"
         />
         <GroupInputComponent />

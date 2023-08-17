@@ -20,7 +20,7 @@ export const SubHeaderInfo: FC<IHeaderProps> = ({
           width={114}
           height={114}
           src={logo}
-          alt="luccid_logo"
+          alt="icon"
           as={NextImage}
         />
       </div>
