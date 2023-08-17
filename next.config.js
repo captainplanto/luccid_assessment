@@ -6,6 +6,9 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
+  env: {
+    PUBLIC_URL: "/",
+  },
 };
 
 module.exports = nextConfig;

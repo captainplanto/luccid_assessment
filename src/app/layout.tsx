@@ -18,7 +18,7 @@ export default function RootLayout({
       <body>
         <Providers>
           <HeaderComponent
-            logo="/luccid_logo.png"
+            logo={`${process.env.PUBLIC_URL}/my-image.jpg`}
             title="Set up your business account"
           />
 

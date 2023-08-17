@@ -18,12 +18,11 @@ const GroupInputComponent = () => {
   const onchange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { value, name } = e.target;
     setForm((prev) => ({ ...prev, [name]: value }));
-    console.log(form.companyName, "change form");
   };
 
   const handleSubmit = (e?: any) => {
     e.preventDefault();
-    console.log(form, "Submitted...");
+    console.log(form, "Submmited form state...");
   };
   return (
     <>
