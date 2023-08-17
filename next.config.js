@@ -6,8 +6,8 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
-  env: {
-    ...(process.env.NODE_ENV === "production" ? { PUBLIC_URL: "/" } : {}),
+  images: {
+    domains: ["https://luccid-assessment.vercel.app/"],
   },
 };
 
